@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Compilando</title>
+  <link rel="stylesheet" href="loader1.css">
+</head>
+
+<body>
+  <div class="loading">
+    <div class="text">Compilando...</div>
+    <label class="percent">100%</label>
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+  <script src="loader1.js"></script>
+</body>
+<script>
+  setTimeout(function () {
+    window.location.href = "l.html";
+  }, 6000); // Aquí puedes ajustar el tiempo de espera en milisegundos
+</script>
+
+</html>
